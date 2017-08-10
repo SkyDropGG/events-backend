@@ -1,0 +1,21 @@
+{
+  "name": "events-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "prod": "pm2 start pm2.json",
+    "doc": "apidoc -i services/ -o docs/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-proxy": "^1.16.2",
+    "node-static": "^0.7.9"
+  },
+  "devDependencies": {
+    "apidoc": "^0.17.6"
+  }
+}
